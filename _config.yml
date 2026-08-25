@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Pengyu Chang"
 title_separator          : "-"
 name                     : &name "Pengyu Chang"
-description              : &description "Software engineer and CMU graduate student building measurable AI systems across synthetic data, LLM safety, speech, and infrastructure."
+description              : &description "Pengyu Chang is an M.S. Information Networking student at CMU working on machine learning research and software systems."
 url                      : https://jmueducn.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jmueducn/jmueducn.github.io"
@@ -25,7 +25,7 @@ author:
   avatar           : "picture_1.jpg"
   name             : "Pengyu Chang"
   pronouns         : "he/him" 
-  bio              : "Software engineer and AI systems researcher. M.S. Information Networking at CMU, 2027."
+  bio              : "M.S. Information Networking student at Carnegie Mellon University, 2027."
   location         : "Pittsburgh, PA"
   employer         : "Carnegie Mellon University"
   uri              : # URL
@@ -140,7 +140,7 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 : "og.png"
-og_description           : "Pengyu Chang builds measurable AI and dependable software systems across synthetic data, LLM safety, speech, observability, and storage."
+og_description           : "M.S. Information Networking student at CMU working on machine learning research and software systems."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:

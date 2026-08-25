@@ -11,72 +11,55 @@ redirect_from:
   <section class="home-hero" aria-labelledby="intro-title">
     <div class="hero-signal" aria-label="Current status">
       <span class="signal-dot" aria-hidden="true"></span>
-      CMU · Pittsburgh, PA · M.S. 2027
+      Carnegie Mellon University · Pittsburgh, PA
     </div>
 
-    <p class="hero-kicker">Software engineer · AI systems researcher</p>
-    <h1 id="intro-title">AI systems,<br><em>measured.</em></h1>
+    <p class="hero-kicker">M.S. Information Networking · 2027</p>
+    <h1 id="intro-title">Pengyu Chang</h1>
     <p class="hero-summary">
-      I’m Pengyu Chang, a CMU graduate student building dependable AI and
-      software systems across synthetic data, LLM safety, speech,
-      observability, and storage.
+      I’m a master’s student at Carnegie Mellon University working on machine
+      learning and software systems. My interests include synthetic data,
+      model evaluation, speech, and systems infrastructure.
     </p>
 
     <div class="hero-actions" aria-label="Primary links">
-      <a class="portfolio-button portfolio-button--primary" href="#work">Explore my work <span aria-hidden="true">↘</span></a>
-      <a class="portfolio-button" href="/cv/">View résumé <span aria-hidden="true">↗</span></a>
+      <a class="portfolio-button portfolio-button--primary" href="#work">Selected work <span aria-hidden="true">↓</span></a>
+      <a class="portfolio-button" href="/cv/">Résumé <span aria-hidden="true">↗</span></a>
       <a class="portfolio-text-link" href="https://github.com/jmueducn">GitHub <span aria-hidden="true">↗</span></a>
     </div>
 
-    <div class="hero-proof" aria-label="Profile highlights">
-      <div class="proof-item">
-        <strong>4.0</strong>
-        <span>CMU GPA</span>
-      </div>
-      <div class="proof-item">
-        <strong>85%</strong>
-        <span>Less observability data</span>
-      </div>
-      <div class="proof-item">
-        <strong>~133K</strong>
-        <span>Annotated audio pairs</span>
-      </div>
-      <div class="proof-item">
-        <strong>TA</strong>
-        <span>CMU deep learning</span>
-      </div>
-    </div>
   </section>
 
   <section class="home-section" id="work" aria-labelledby="work-title">
     <header class="section-heading">
       <p class="section-index">01 / Selected work</p>
-      <h2 id="work-title">Research that makes model behavior inspectable.</h2>
+      <h2 id="work-title">Research and projects</h2>
     </header>
 
     <article class="spotlight-card">
       <div class="spotlight-meta">
-        <span>Speech · Trustworthy AI</span>
+        <span>Speech · Deepfake detection</span>
         <span>2025—26</span>
       </div>
       <div class="spotlight-body">
         <div>
-          <p class="card-label">Featured research</p>
+          <p class="card-label">Research project</p>
           <h3>CoLMbo-DF</h3>
           <p class="card-copy">
-            An audio-language-model approach to interpretable deepfake speech
-            detection, built on a large acoustic reasoning dataset.
+            CoLMbo-DF studies interpretable deepfake speech detection with
+            audio-language models. I led the construction of FakeReason, a
+            dataset with acoustic reasoning annotations.
           </p>
           <a class="card-link" href="https://arxiv.org/abs/2603.28021">Read the preprint <span aria-hidden="true">↗</span></a>
         </div>
         <dl class="metric-list">
           <div>
             <dt>~133K</dt>
-            <dd>annotated audio pairs</dd>
+            <dd>audio pairs in FakeReason</dd>
           </div>
           <div>
             <dt>98.7%</dt>
-            <dd>reported ASVspoof accuracy</dd>
+            <dd>reported accuracy on ASVspoof 2019</dd>
           </div>
           <div>
             <dt>1B</dt>
@@ -94,13 +77,10 @@ redirect_from:
         </div>
         <h3>AdverTest</h3>
         <p>
-          A multi-agent framework that generates Java unit tests to expose
-          real faults—not just increase surface-level coverage.
+          A multi-agent framework for generating Java unit tests. The study
+          compares fault detection and code coverage with LLM-based and
+          search-based baselines.
         </p>
-        <div class="project-result">
-          <strong>+8.56%</strong>
-          <span>reported fault detection vs. the strongest cited LLM method</span>
-        </div>
         <a class="card-link" href="https://arxiv.org/abs/2602.08146">Read the preprint <span aria-hidden="true">↗</span></a>
       </article>
 
@@ -111,20 +91,16 @@ redirect_from:
         </div>
         <h3>LMTransplant</h3>
         <p>
-          Data augmentation for few-shot language tasks, shaped through prompt
-          engineering and evaluated in realistic, data-scarce settings.
+          Research on synthetic data augmentation for few-shot NLP tasks. I
+          worked on task selection, prompt design, and evaluation.
         </p>
-        <div class="project-result">
-          <strong>Data → signal</strong>
-          <span>task selection, generation prompts, and evaluation</span>
-        </div>
         <a class="card-link" href="https://arxiv.org/abs/2508.14723">Read the preprint <span aria-hidden="true">↗</span></a>
       </article>
     </div>
 
     <div class="systems-intro">
       <p class="section-index">Systems work</p>
-      <p>Small enough to understand end to end. Deep enough to reveal the tradeoffs.</p>
+      <p>Projects in Go and C++ covering orchestration and storage.</p>
     </div>
 
     <div class="systems-grid">
@@ -156,7 +132,7 @@ redirect_from:
   <section class="home-section" id="experience" aria-labelledby="experience-title">
     <header class="section-heading">
       <p class="section-index">02 / Experience</p>
-      <h2 id="experience-title">From model evaluation to production observability.</h2>
+      <h2 id="experience-title">Experience</h2>
     </header>
 
     <div class="experience-list">
@@ -170,8 +146,7 @@ redirect_from:
           <p>
             Built an end-to-end synthetic-data pipeline for Gemini content
             safety. Designed structured policy taxonomies and conditional
-            generation for broader coverage and fine-grained distribution
-            control, then evaluated downstream classifiers with accuracy,
+            generation, then evaluated downstream classifiers with accuracy,
             F1, and PR-AUC.
           </p>
         </div>
@@ -186,8 +161,8 @@ redirect_from:
           </div>
           <p>
             Integrated service-mesh visualization into a Grafana and
-            Prometheus monitoring stack, reducing its data volume by 85% to
-            resolve memory bottlenecks and speed up error identification.
+            Prometheus monitoring stack. Reduced Kiali data volume by 85%,
+            resolving memory bottlenecks in the monitoring stack.
           </p>
         </div>
       </article>
@@ -201,8 +176,8 @@ redirect_from:
           </div>
           <p>
             Worked across few-shot NLP data augmentation and multi-agent LLM
-            testing, from finding meaningful downstream tasks to designing
-            generation frameworks and evaluating fault-detection capability.
+            testing, from identifying data-scarce downstream tasks to
+            designing generation frameworks and evaluating fault detection.
           </p>
         </div>
       </article>
@@ -212,7 +187,7 @@ redirect_from:
   <section class="home-section" id="about" aria-labelledby="about-title">
     <header class="section-heading">
       <p class="section-index">03 / About</p>
-      <h2 id="about-title">An engineer who follows evidence across boundaries.</h2>
+      <h2 id="about-title">About</h2>
     </header>
 
     <div class="about-grid">
@@ -221,15 +196,15 @@ redirect_from:
       </div>
       <div class="about-copy">
         <p class="about-lead">
-          I’m pursuing an M.S. in Information Networking at Carnegie Mellon,
-          where I also serve as a teaching assistant for Introduction to Deep
-          Learning. Before CMU, I earned a B.E. in Software Engineering from
-          Shanghai Jiao Tong University.
+          I’m an M.S. Information Networking student at Carnegie Mellon
+          University and a teaching assistant for Introduction to Deep
+          Learning. Before CMU, I studied Software Engineering at Shanghai
+          Jiao Tong University.
         </p>
         <p>
-          My work moves between AI research and systems engineering because
-          reliable models need both: careful data and evaluation, plus the
-          infrastructure to make results observable and repeatable.
+          I’m interested in both machine learning research and software
+          engineering, especially data generation, evaluation, speech, and
+          systems infrastructure.
         </p>
         <div class="education-grid" aria-label="Education">
           <div>
@@ -253,7 +228,7 @@ redirect_from:
 
   <section class="contact-section" id="contact" aria-labelledby="contact-title">
     <p class="section-index">04 / Contact</p>
-    <h2 id="contact-title">Have a hard problem?<br><em>Let’s make it measurable.</em></h2>
+    <h2 id="contact-title">Contact</h2>
     <div class="contact-links">
       <a class="portfolio-button portfolio-button--primary" href="mailto:pengyuch@andrew.cmu.edu">Email me <span aria-hidden="true">↗</span></a>
       <a class="portfolio-button" href="https://www.linkedin.com/in/pengyuch/">LinkedIn <span aria-hidden="true">↗</span></a>

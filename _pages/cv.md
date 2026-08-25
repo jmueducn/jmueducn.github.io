@@ -12,9 +12,9 @@ redirect_from:
 <div class="portfolio-cv">
   <header class="cv-intro">
     <div>
-      <p class="cv-kicker">Software engineering · AI systems</p>
+      <p class="cv-kicker">Software engineering · Machine learning research</p>
       <h1>Pengyu Chang</h1>
-      <p>CMU M.S. Information Networking candidate building measurable AI and dependable software systems.</p>
+      <p>CMU M.S. Information Networking student with experience in machine learning research and software engineering.</p>
     </div>
     <div class="cv-actions">
       <button type="button" class="cv-print" onclick="window.print()">Print / save PDF</button>
@@ -55,8 +55,8 @@ redirect_from:
         <p class="cv-subtitle">Software Engineering Intern · San Francisco, CA</p>
         <ul>
           <li>Built an end-to-end synthetic-data generation pipeline for Gemini content safety across multiple policy areas.</li>
-          <li>Designed a two-stage approach using structured policy taxonomies and conditional generation for broad policy coverage and fine-grained output-distribution control.</li>
-          <li>Iteratively evaluated and improved downstream safety-classifier performance using accuracy, F1, and PR-AUC.</li>
+          <li>Designed a two-stage approach using structured policy taxonomies and conditional generation.</li>
+          <li>Evaluated downstream safety classifiers using accuracy, F1, and PR-AUC and iterated on both pipeline stages.</li>
         </ul>
       </div>
     </div>
@@ -66,7 +66,7 @@ redirect_from:
         <h3>Electronic Arts</h3>
         <p class="cv-subtitle">Software Engineer Intern · Shanghai, China</p>
         <ul>
-          <li>Integrated Kiali service-mesh visualization into a Grafana and Prometheus monitoring stack, reducing data volume by 85% to resolve memory bottlenecks and accelerate error identification.</li>
+          <li>Integrated Kiali service-mesh visualization into a Grafana and Prometheus monitoring stack and reduced Kiali data volume by 85%, resolving memory bottlenecks.</li>
         </ul>
       </div>
     </div>
@@ -78,7 +78,7 @@ redirect_from:
         <ul>
           <li>Contributed to <a href="https://arxiv.org/abs/2508.14723">LMTransplant</a>, identifying data-scarce downstream tasks, engineering synthetic-data prompts, and evaluating realistic few-shot NLP scenarios.</li>
           <li>Designed and implemented <a href="https://arxiv.org/abs/2602.08146">AdverTest</a>, a first-author multi-agent LLM framework for Java unit-test generation.</li>
-          <li>Reported 8.56% stronger fault detection than the cited best LLM method and 63.30% over EvoSuite, alongside line- and branch-coverage gains.</li>
+          <li>Evaluated fault detection, line coverage, and branch coverage against LLM-based methods and EvoSuite.</li>
         </ul>
       </div>
     </div>
@@ -94,7 +94,7 @@ redirect_from:
         <ul>
           <li>Led construction of FakeReason, an approximately 133K-pair audio dataset with acoustic chain-of-thought annotations.</li>
           <li>Built a pipeline combining ASVspoof 2019 LA and VoxCeleb2 with approximately 20K synthesized deepfakes and acoustically grounded reasoning annotations.</li>
-          <li>Enabled a 1B-parameter model to reach a reported 98.7% accuracy on ASVspoof 2019.</li>
+          <li>A 1B-parameter model trained with the dataset reached a reported 98.7% accuracy on ASVspoof 2019.</li>
         </ul>
       </div>
     </div>
@@ -123,7 +123,8 @@ redirect_from:
   <section class="cv-section cv-skills" aria-labelledby="cv-skills">
     <h2 id="cv-skills">Skills</h2>
     <p><strong>Languages</strong> Python, C++, C, Java, Go, JavaScript, TypeScript</p>
-    <p><strong>AI / ML</strong> PyTorch, LangChain, LLM APIs, synthetic data, model evaluation, NLP, speech and deepfake detection</p>
+    <p><strong>ML tools</strong> PyTorch, LangChain, LLM APIs</p>
+    <p><strong>Research areas</strong> Synthetic data, model evaluation, NLP, speech and deepfake detection</p>
     <p><strong>Systems / Data</strong> Kafka, Redis, MySQL, MongoDB, Prometheus, Grafana, Istio, NFS, storage engines</p>
   </section>
 </div>
