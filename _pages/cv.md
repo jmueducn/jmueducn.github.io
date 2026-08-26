@@ -3,128 +3,112 @@ layout: single
 title: "Résumé"
 description: "Pengyu Chang’s education, software engineering experience, research, projects, and technical skills."
 permalink: /cv/
-author_profile: false
-portfolio_cv: true
+author_profile: true
 redirect_from:
   - /resume
 ---
 
-<div class="portfolio-cv">
-  <header class="cv-intro">
-    <div>
-      <p class="cv-kicker">Software engineering · Machine learning research</p>
-      <h1>Pengyu Chang</h1>
-      <p>CMU M.S. Information Networking student with experience in machine learning research and software engineering.</p>
-    </div>
-    <div class="cv-actions">
-      <button type="button" class="cv-print" onclick="window.print()">Print / save PDF</button>
-      <a href="mailto:pengyuch@andrew.cmu.edu">Email</a>
-      <a href="https://www.linkedin.com/in/pengyuch/">LinkedIn</a>
-      <a href="https://github.com/jmueducn">GitHub</a>
-    </div>
-  </header>
+<div class="simple-cv">
+  <p class="cv-actions">
+    <button type="button" class="simple-print" onclick="window.print()">Print / save PDF</button>
+  </p>
 
-  <section class="cv-section" aria-labelledby="cv-education">
+  <section aria-labelledby="cv-education">
     <h2 id="cv-education">Education</h2>
-    <div class="cv-entry">
-      <div class="cv-date">Aug 2025—May 2027</div>
+
+    <article class="simple-entry">
+      <p class="entry-year">2025–27</p>
       <div>
         <h3>Carnegie Mellon University</h3>
-        <p class="cv-subtitle">M.S. in Information Networking · Pittsburgh, PA</p>
+        <p class="entry-subtitle">M.S. in Information Networking · Pittsburgh, PA</p>
         <ul>
           <li>GPA: 4.0/4.0.</li>
-          <li>Teaching Assistant, Introduction to Deep Learning: mentored final projects, led recitations, and held office hours.</li>
+          <li>Teaching Assistant, Introduction to Deep Learning.</li>
         </ul>
       </div>
-    </div>
-    <div class="cv-entry">
-      <div class="cv-date">Aug 2021—Jun 2025</div>
+    </article>
+
+    <article class="simple-entry">
+      <p class="entry-year">2021–25</p>
       <div>
         <h3>Shanghai Jiao Tong University</h3>
-        <p class="cv-subtitle">B.E. in Software Engineering · Shanghai, China</p>
+        <p class="entry-subtitle">B.E. in Software Engineering · Shanghai, China</p>
       </div>
-    </div>
+    </article>
   </section>
 
-  <section class="cv-section" aria-labelledby="cv-experience">
+  <section aria-labelledby="cv-experience">
     <h2 id="cv-experience">Experience</h2>
-    <div class="cv-entry">
-      <div class="cv-date">May—Aug 2026</div>
+
+    <article class="simple-entry">
+      <p class="entry-year">2026</p>
       <div>
         <h3>Google</h3>
-        <p class="cv-subtitle">Software Engineering Intern · San Francisco, CA</p>
+        <p class="entry-subtitle">Software Engineering Intern · San Francisco, CA</p>
         <ul>
           <li>Built an end-to-end synthetic-data generation pipeline for Gemini content safety across multiple policy areas.</li>
           <li>Designed a two-stage approach using structured policy taxonomies and conditional generation.</li>
           <li>Evaluated downstream safety classifiers using accuracy, F1, and PR-AUC and iterated on both pipeline stages.</li>
         </ul>
       </div>
-    </div>
-    <div class="cv-entry">
-      <div class="cv-date">Jul—Aug 2024</div>
+    </article>
+
+    <article class="simple-entry">
+      <p class="entry-year">2024</p>
       <div>
         <h3>Electronic Arts</h3>
-        <p class="cv-subtitle">Software Engineer Intern · Shanghai, China</p>
+        <p class="entry-subtitle">Software Engineer Intern · Shanghai, China</p>
         <ul>
-          <li>Integrated Kiali service-mesh visualization into a Grafana and Prometheus monitoring stack and reduced Kiali data volume by 85%, resolving memory bottlenecks.</li>
+          <li>Integrated Kiali into a Grafana and Prometheus monitoring stack and reduced Kiali data volume by 85%, resolving memory bottlenecks.</li>
         </ul>
       </div>
-    </div>
-    <div class="cv-entry">
-      <div class="cv-date">Jun 2024—Jun 2025</div>
+    </article>
+
+    <article class="simple-entry">
+      <p class="entry-year">2024–25</p>
       <div>
         <h3>Shanghai Jiao Tong University</h3>
-        <p class="cv-subtitle">Research Assistant · Shanghai, China</p>
+        <p class="entry-subtitle">Research Assistant · Shanghai, China</p>
         <ul>
-          <li>Contributed to <a href="https://arxiv.org/abs/2508.14723">LMTransplant</a>, identifying data-scarce downstream tasks, engineering synthetic-data prompts, and evaluating realistic few-shot NLP scenarios.</li>
-          <li>Designed and implemented <a href="https://arxiv.org/abs/2602.08146">AdverTest</a>, a first-author multi-agent LLM framework for Java unit-test generation.</li>
-          <li>Evaluated fault detection, line coverage, and branch coverage against LLM-based methods and EvoSuite.</li>
+          <li>Contributed to <a href="https://arxiv.org/abs/2508.14723">LMTransplant</a>, including task selection, synthetic-data prompt design, and evaluation.</li>
+          <li>Designed and implemented <a href="https://arxiv.org/abs/2602.08146">AdverTest</a>, a first-author multi-agent framework for Java unit-test generation.</li>
         </ul>
       </div>
-    </div>
+    </article>
   </section>
 
-  <section class="cv-section" aria-labelledby="cv-projects">
+  <section aria-labelledby="cv-projects">
     <h2 id="cv-projects">Selected projects</h2>
-    <div class="cv-entry">
-      <div class="cv-date">Oct 2025—Mar 2026</div>
+
+    <article class="simple-entry">
+      <p class="entry-year">2025–26</p>
       <div>
         <h3><a href="https://arxiv.org/abs/2603.28021">CoLMbo-DF</a></h3>
-        <p class="cv-subtitle">Audio-language-model research for deepfake detection</p>
-        <ul>
-          <li>Led construction of FakeReason, an approximately 133K-pair audio dataset with acoustic chain-of-thought annotations.</li>
-          <li>Built a pipeline combining ASVspoof 2019 LA and VoxCeleb2 with approximately 20K synthesized deepfakes and acoustically grounded reasoning annotations.</li>
-          <li>A 1B-parameter model trained with the dataset reached a reported 98.7% accuracy on ASVspoof 2019.</li>
-        </ul>
+        <p>Led construction of FakeReason, an approximately 133K-pair audio dataset with acoustic reasoning annotations. A 1B-parameter model trained with the dataset reached a reported 98.7% accuracy on ASVspoof 2019.</p>
       </div>
-    </div>
-    <div class="cv-entry">
-      <div class="cv-date">Apr—Jun 2024</div>
+    </article>
+
+    <article class="simple-entry">
+      <p class="entry-year">2024</p>
       <div>
         <h3>Minik8s</h3>
-        <p class="cv-subtitle">Mini container orchestration system · Go</p>
-        <ul>
-          <li>Implemented API-object management, deployment and autoscaling control loops, and NFS-backed persistent volumes and claims.</li>
-        </ul>
+        <p>A container orchestration system in Go with control loops, horizontal autoscaling, and NFS-backed persistent storage.</p>
       </div>
-    </div>
-    <div class="cv-entry">
-      <div class="cv-date">Apr—May 2023</div>
+    </article>
+
+    <article class="simple-entry">
+      <p class="entry-year">2023</p>
       <div>
         <h3><a href="https://github.com/jmueducn/LSM-KV">LSM-KV</a></h3>
-        <p class="cv-subtitle">Log-structured key-value store · C++</p>
-        <ul>
-          <li>Built memory and disk structures with skip lists and Bloom filters, then tuned throughput across LSM-tree configurations.</li>
-        </ul>
+        <p>A C++ key-value store using skip lists, Bloom filters, and an LSM-tree design.</p>
       </div>
-    </div>
+    </article>
   </section>
 
-  <section class="cv-section cv-skills" aria-labelledby="cv-skills">
+  <section class="cv-skills" aria-labelledby="cv-skills">
     <h2 id="cv-skills">Skills</h2>
-    <p><strong>Languages</strong> Python, C++, C, Java, Go, JavaScript, TypeScript</p>
-    <p><strong>ML tools</strong> PyTorch, LangChain, LLM APIs</p>
-    <p><strong>Research areas</strong> Synthetic data, model evaluation, NLP, speech and deepfake detection</p>
-    <p><strong>Systems / Data</strong> Kafka, Redis, MySQL, MongoDB, Prometheus, Grafana, Istio, NFS, storage engines</p>
+    <p><strong>Languages:</strong> Python, C++, C, Java, Go, JavaScript, TypeScript</p>
+    <p><strong>ML tools:</strong> PyTorch, LangChain, LLM APIs</p>
+    <p><strong>Systems and data:</strong> Kafka, Redis, MySQL, MongoDB, Prometheus, Grafana, Istio, NFS</p>
   </section>
 </div>
