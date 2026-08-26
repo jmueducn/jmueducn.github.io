@@ -204,6 +204,20 @@ button:focus-visible {
   font-size: 0.76rem;
 }
 
+.publication-title {
+  font-weight: 600;
+}
+
+.publication-authors {
+  color: var(--global-text-color-light);
+}
+
+.simple-entry .publication-venue {
+  color: var(--global-text-color-light);
+  font-family: $sans-serif;
+  font-size: 0.78rem;
+}
+
 .simple-cv > section {
   margin-bottom: 3rem;
 }

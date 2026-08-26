@@ -37,6 +37,28 @@ redirect_from:
     </article>
   </section>
 
+  <section aria-labelledby="cv-publications">
+    <h2 id="cv-publications">Publications</h2>
+
+    <article class="simple-entry">
+      <p class="entry-year">2026</p>
+      <div>
+        <h3 class="publication-title"><a href="https://arxiv.org/abs/2602.08146">Test vs Mutant: Adversarial LLM Agents for Robust Unit Test Generation</a></h3>
+        <p class="publication-authors"><strong>Pengyu Chang</strong>, Yixiong Fang, Silin Chen, Yuling Shi, Beijun Shen, and Xiaodong Gu.</p>
+        <p class="publication-venue"><a href="https://conf.researchr.org/details/issta-2026/issta-2026-research-papers/31/Test-vs-Mutant-Adversarial-LLM-Agents-for-Robust-Unit-Test-Generation">ISSTA 2026</a> · <a href="https://arxiv.org/abs/2602.08146">arXiv</a></p>
+      </div>
+    </article>
+
+    <article class="simple-entry">
+      <p class="entry-year">2026</p>
+      <div>
+        <h3 class="publication-title"><a href="https://arxiv.org/abs/2603.28021">Audio Language Model for Deepfake Detection Grounded in Acoustic Chain-of-Thought</a></h3>
+        <p class="publication-authors">Runkun Chen, Yixiong Fang, <strong>Pengyu Chang</strong>, Yuante Li, Massa Baali, and Bhiksha Raj.</p>
+        <p class="publication-venue">arXiv preprint · <a href="https://arxiv.org/abs/2603.28021">arXiv</a></p>
+      </div>
+    </article>
+  </section>
+
   <section aria-labelledby="cv-experience">
     <h2 id="cv-experience">Experience</h2>
 
@@ -79,14 +101,6 @@ redirect_from:
 
   <section aria-labelledby="cv-projects">
     <h2 id="cv-projects">Selected projects</h2>
-
-    <article class="simple-entry">
-      <p class="entry-year">2025–26</p>
-      <div>
-        <h3><a href="https://arxiv.org/abs/2603.28021">CoLMbo-DF</a></h3>
-        <p>Led construction of FakeReason, an approximately 133K-pair audio dataset with acoustic reasoning annotations. A 1B-parameter model trained with the dataset reached a reported 98.7% accuracy on ASVspoof 2019.</p>
-      </div>
-    </article>
 
     <article class="simple-entry">
       <p class="entry-year">2024</p>

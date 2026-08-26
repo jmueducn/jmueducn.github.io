@@ -24,33 +24,36 @@ redirect_from:
     <p><strong>Research interests:</strong> synthetic data, model evaluation, speech, and software systems.</p>
   </section>
 
+  <section id="publications" aria-labelledby="publications-heading">
+    <h2 id="publications-heading">Publications</h2>
+
+    <article class="simple-entry">
+      <p class="entry-year">2026</p>
+      <div>
+        <h3 class="publication-title"><a href="https://arxiv.org/abs/2602.08146">Test vs Mutant: Adversarial LLM Agents for Robust Unit Test Generation</a></h3>
+        <p class="publication-authors"><strong>Pengyu Chang</strong>, Yixiong Fang, Silin Chen, Yuling Shi, Beijun Shen, and Xiaodong Gu.</p>
+        <p class="publication-venue"><a href="https://conf.researchr.org/details/issta-2026/issta-2026-research-papers/31/Test-vs-Mutant-Adversarial-LLM-Agents-for-Robust-Unit-Test-Generation">ISSTA 2026</a> · <a href="https://arxiv.org/abs/2602.08146">arXiv</a></p>
+      </div>
+    </article>
+
+    <article class="simple-entry">
+      <p class="entry-year">2026</p>
+      <div>
+        <h3 class="publication-title"><a href="https://arxiv.org/abs/2603.28021">Audio Language Model for Deepfake Detection Grounded in Acoustic Chain-of-Thought</a></h3>
+        <p class="publication-authors">Runkun Chen, Yixiong Fang, <strong>Pengyu Chang</strong>, Yuante Li, Massa Baali, and Bhiksha Raj.</p>
+        <p class="publication-venue">arXiv preprint · <a href="https://arxiv.org/abs/2603.28021">arXiv</a></p>
+      </div>
+    </article>
+  </section>
+
   <section id="research" aria-labelledby="research-heading">
-    <h2 id="research-heading">Research</h2>
-
-    <article class="simple-entry">
-      <p class="entry-year">2026</p>
-      <div>
-        <h3>CoLMbo-DF</h3>
-        <p>Audio-language-model research for interpretable deepfake speech detection. I led the construction of FakeReason, an approximately 133K-pair dataset with acoustic reasoning annotations.</p>
-        <p class="entry-links"><a href="https://arxiv.org/abs/2603.28021">arXiv</a></p>
-      </div>
-    </article>
-
-    <article class="simple-entry">
-      <p class="entry-year">2026</p>
-      <div>
-        <h3>AdverTest</h3>
-        <p>A multi-agent framework for Java unit-test generation, evaluated on fault detection and code coverage against LLM-based and search-based baselines.</p>
-        <p class="entry-links"><a href="https://arxiv.org/abs/2602.08146">arXiv</a></p>
-      </div>
-    </article>
+    <h2 id="research-heading">Research contribution</h2>
 
     <article class="simple-entry">
       <p class="entry-year">2025</p>
       <div>
-        <h3>LMTransplant</h3>
-        <p>Synthetic data augmentation for few-shot NLP tasks. I worked on task selection, prompt design, and evaluation.</p>
-        <p class="entry-links"><a href="https://arxiv.org/abs/2508.14723">arXiv</a></p>
+        <h3><a href="https://arxiv.org/abs/2508.14723">LMTransplant</a></h3>
+        <p>Contributed to task selection, synthetic-data prompt design, and evaluation for this text data augmentation project, accepted at EMNLP 2025.</p>
       </div>
     </article>
   </section>
