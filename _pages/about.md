@@ -32,7 +32,7 @@ redirect_from:
       <div>
         <h3 class="publication-title"><a href="https://arxiv.org/abs/2602.08146">Test vs Mutant: Adversarial LLM Agents for Robust Unit Test Generation</a></h3>
         <p class="publication-authors"><strong>Pengyu Chang</strong>, Yixiong Fang, Silin Chen, Yuling Shi, Beijun Shen, and Xiaodong Gu.</p>
-        <p class="publication-venue"><a href="https://conf.researchr.org/details/issta-2026/issta-2026-research-papers/31/Test-vs-Mutant-Adversarial-LLM-Agents-for-Robust-Unit-Test-Generation">ISSTA 2026</a> · <a href="https://arxiv.org/abs/2602.08146">arXiv</a></p>
+        <p class="publication-venue"><a href="https://conf.researchr.org/details/issta-2026/issta-2026-research-papers/31/Test-vs-Mutant-Adversarial-LLM-Agents-for-Robust-Unit-Test-Generation">ISSTA 2026</a> · <a href="/assets/pdf/Test-vs-Mutant-ISSTA-2026.pdf">Preprint PDF</a> · <a href="https://arxiv.org/abs/2602.08146">arXiv</a></p>
       </div>
     </article>
 
